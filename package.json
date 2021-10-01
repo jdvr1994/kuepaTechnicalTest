@@ -1,0 +1,49 @@
+{
+  "name": "kuepatechnicaltest",
+  "version": "1.0.0",
+  "description": "It is my technical test to get a job in Kuepa!",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --verbose",
+    "start": "node dist/server.js",
+    "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "lint": "eslint src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdvr1994/kuepaTechnicalTest.git"
+  },
+  "author": "Juan Velasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdvr1994/kuepaTechnicalTest/issues"
+  },
+  "homepage": "https://github.com/jdvr1994/kuepaTechnicalTest#readme",
+  "dependencies": {
+    "awilix": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.9",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.2",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/node": "^16.10.2",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "eslint": "^7.32.0",
+    "jest": "^27.2.4",
+    "ts-node-dev": "^1.1.8"
+  }
+}
