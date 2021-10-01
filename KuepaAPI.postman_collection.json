@@ -1,0 +1,624 @@
+{
+	"info": {
+		"name": "KuepaAPI",
+		"_postman_id": "c5e4a26a-8bef-9fbb-d545-79ceeb6909d5",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API - Classes - get",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyNTcxN2M0NjU0NGQyODY4ZTJmNyIsImVtYWlsIjoicHJvZmVzb3IxIiwidHlwZSI6Im1vZGVyYXRvciIsImlhdCI6MTYzMzAzOTgzNywiZXhwIjoxNjMzMDQzNDM3fQ.r-owXJSmaddkkgFkXMpk35ueuVj4HPObzG8F0lb1KYs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/class/61562b59930db747c0117fe4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"class",
+						"61562b59930db747c0117fe4"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Classes - get by student",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyMTAxYjk0ZThkNDdkODA5MThmZSIsImVtYWlsIjoianVhbmR2cjI4IiwidHlwZSI6InN0dWRlbnQiLCJpYXQiOjE2MzMwNDM2MDUsImV4cCI6MTYzMzA0NzIwNX0.o-0TeVIsJnpibdXrmdm9DWvNhq5IcjoYj7IZ9wqaYn0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/class/student/61562101b94e8d47d80918fe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"class",
+						"student",
+						"61562101b94e8d47d80918fe"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Classes - get by student copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyNTcxN2M0NjU0NGQyODY4ZTJmNyIsImVtYWlsIjoicHJvZmVzb3IxIiwidHlwZSI6Im1vZGVyYXRvciIsImlhdCI6MTYzMzA0MzY1MSwiZXhwIjoxNjMzMDQ3MjUxfQ.yjGM7gtgzq5mSHWrTXPU6swK4D0XPtL22N0XciK4ymM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/class/moderator/61562101b94e8d47d80918fe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"class",
+						"moderator",
+						"61562101b94e8d47d80918fe"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Class - all",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyNTcxN2M0NjU0NGQyODY4ZTJmNyIsImVtYWlsIjoicHJvZmVzb3IxIiwidHlwZSI6Im1vZGVyYXRvciIsImlhdCI6MTYzMzAzOTgzNywiZXhwIjoxNjMzMDQzNDM3fQ.r-owXJSmaddkkgFkXMpk35ueuVj4HPObzG8F0lb1KYs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/class",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"class"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API- Class- Create",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyNTcxN2M0NjU0NGQyODY4ZTJmNyIsImVtYWlsIjoicHJvZmVzb3IxIiwidHlwZSI6Im1vZGVyYXRvciIsImlhdCI6MTYzMzAzNTY4MCwiZXhwIjoxNjMzMDM5MjgwfQ.5kU4S2Xc-8ZLxh5QmqxRG2KpZyG2NBaUGnjoVtm-MUI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"Robotica\",\n\t\"description\": \"Esta es una clase de robotica\",\n\t\"startDate\": \"2021-09-30T19:00:33.040Z\",\n\t\"endDate\":   \"2021-09-30T20:00:33.040Z\",\n\t\"moderator\" : \"615625717c46544d2868e2f7\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/class/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"class",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Class- Subscribe Student",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyMTAxYjk0ZThkNDdkODA5MThmZSIsImVtYWlsIjoianVhbmR2cjI4IiwidHlwZSI6InN0dWRlbnQiLCJpYXQiOjE2MzMwMzk2NjAsImV4cCI6MTYzMzA0MzI2MH0.GgGIij54BBKNnHAyzFkN9-9rSGdG4MV3cpyiTJI01TE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userId\": \"615620bacc27883ab408dca7\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/class/61562b59930db747c0117fe4/subscribe-student",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"class",
+						"61562b59930db747c0117fe4",
+						"subscribe-student"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Class- Add Like",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyMTAxYjk0ZThkNDdkODA5MThmZSIsImVtYWlsIjoianVhbmR2cjI4IiwidHlwZSI6InN0dWRlbnQiLCJpYXQiOjE2MzMwMzk2NjAsImV4cCI6MTYzMzA0MzI2MH0.GgGIij54BBKNnHAyzFkN9-9rSGdG4MV3cpyiTJI01TE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userId\": \"61562101b94e8d47d80918fe\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/class/61562b59930db747c0117fe4/like",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"class",
+						"61562b59930db747c0117fe4",
+						"like"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Classes - GetInteractions",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyNTcxN2M0NjU0NGQyODY4ZTJmNyIsImVtYWlsIjoicHJvZmVzb3IxIiwidHlwZSI6Im1vZGVyYXRvciIsImlhdCI6MTYzMzAzOTgzNywiZXhwIjoxNjMzMDQzNDM3fQ.r-owXJSmaddkkgFkXMpk35ueuVj4HPObzG8F0lb1KYs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/class/61562b59930db747c0117fe4/interactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"class",
+						"61562b59930db747c0117fe4",
+						"interactions"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Student - all",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyMTAxYjk0ZThkNDdkODA5MThmZSIsImVtYWlsIjoianVhbmR2cjI4IiwidHlwZSI6InN0dWRlbnQiLCJpYXQiOjE2MzMwMzQ3MTIsImV4cCI6MTYzMzAzODMxMn0.UlGq2ZEso-qkMLhZeSd_F_Uy-yRg-EbmpLcyLz5YeWc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/student",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Student- Create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\": \"juandvr28\",\n\t\"password\": \"2134Darkjljl!\",\n\t\"names\": \"Juan\",\n\t\"lastNames\": \"Velasquez\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/student/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Student- Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\": \"juandvr28\",\n\t\"password\": \"2134Darkjljl!\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/student/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"login"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Student - get",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNGJmOTdlMWQ0ZTcxMzg5OGRlM2Y0NSIsImVtYWlsIjoianVhbmQudnIyOEBnbWFpbC5jb20iLCJ0eXBlIjoidXNlciIsImlhdCI6MTYzMjM2OTAzMSwiZXhwIjoxNjMyMzcyNjMxfQ.HdQSj9MRH98cwLD5dTK1Wui4YPqISZk0O7Btd3IgLyM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/user/614bfa871d4e713898de3f62",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						"614bfa871d4e713898de3f62"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Student - loginHistory",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyMTAxYjk0ZThkNDdkODA5MThmZSIsImVtYWlsIjoianVhbmR2cjI4IiwidHlwZSI6InN0dWRlbnQiLCJpYXQiOjE2MzMwMzQ3MTIsImV4cCI6MTYzMzAzODMxMn0.UlGq2ZEso-qkMLhZeSd_F_Uy-yRg-EbmpLcyLz5YeWc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/student/61562101b94e8d47d80918fe/login-history",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"student",
+						"61562101b94e8d47d80918fe",
+						"login-history"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Moderator - All",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyMTAxYjk0ZThkNDdkODA5MThmZSIsImVtYWlsIjoianVhbmR2cjI4IiwidHlwZSI6InN0dWRlbnQiLCJpYXQiOjE2MzMwMzQ3MTIsImV4cCI6MTYzMzAzODMxMn0.UlGq2ZEso-qkMLhZeSd_F_Uy-yRg-EbmpLcyLz5YeWc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/moderator",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"moderator"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Moderator - get",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyNTcxN2M0NjU0NGQyODY4ZTJmNyIsImVtYWlsIjoicHJvZmVzb3IxIiwidHlwZSI6Im1vZGVyYXRvciIsImlhdCI6MTYzMzAzNTY4MCwiZXhwIjoxNjMzMDM5MjgwfQ.5kU4S2Xc-8ZLxh5QmqxRG2KpZyG2NBaUGnjoVtm-MUI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/moderator/615625717c46544d2868e2f7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"moderator",
+						"615625717c46544d2868e2f7"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Moderator - Create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\": \"profesor1\",\n\t\"password\": \"2134Darkjljl!\",\n\t\"names\": \"Juan\",\n\t\"lastNames\": \"Velasquez\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/moderator/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"moderator",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Moderator- Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\": \"profesor1\",\n\t\"password\": \"2134Darkjljl!\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/moderator/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"moderator",
+						"login"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API - Moderator - myStudents",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNTYyNTcxN2M0NjU0NGQyODY4ZTJmNyIsImVtYWlsIjoicHJvZmVzb3IxIiwidHlwZSI6Im1vZGVyYXRvciIsImlhdCI6MTYzMzA2ODkwOSwiZXhwIjoxNjMzMDcyNTA5fQ.ku8otRE-0ztZTPu0U9qGpZk6rkmr4reeiWmLo_DpXyo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/moderator/615625717c46544d2868e2f7/my-students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"moderator",
+						"615625717c46544d2868e2f7",
+						"my-students"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
