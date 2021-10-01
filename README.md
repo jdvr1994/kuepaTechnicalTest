@@ -13,14 +13,17 @@ Como equipo académico se quiere brindar una herramienta de interacciones a las 
 
     2. Instala los modulos requeridos por el proyecto
         npm i
+
+    3. Intala mongodb
+        Recuerda que este es un proyecto que hace uso de mongoDB para persistencia de datos. Por ese motivo debes tener instalado mongoDb en tu computadora. (o usar una instancia de mongo Atlas)
     
-    3. Ejecuta el proyecto en en la instancia de desarrollo
+    4. Ejecuta el proyecto en en la instancia de desarrollo
         3.1 Si usas powershell puedes configurar las variables de entorno como sigue:
             - $env:APP_ENV = "development"
         3.2 Ejecuta el proyecto con el siguiente comando:
             - npm run start:dev
 
-    4. Para ejecutar los test del proyecto ingresa el siguiente comando:
+    5. Para ejecutar los test del proyecto ingresa el siguiente comando:
         - npm test
 
     **_NOTA_: ** El codigo del proyecto esta suficientemente comentado, por esta razón, un primer acercamiento a la compresion de la API puede obtenerse revisando los archivos de testeo, los cuales permiten observar de manera clara la dinamica de funcionamiento de la API.
@@ -31,6 +34,15 @@ Como equipo académico se quiere brindar una herramienta de interacciones a las 
 
     2. Una vez importado el archivo podras realizar las peticiones http a la API del proyecto de manera facil. (Recuerda leer la documentación de la API antes de comenzar con las pruebas)
 
+
+## 5. **AWS Elastic Beanstalk:**
+
+    1. Tambien puedes probar el proyecto en produccion en una instancia de AWS Elastic Beanstalk:
+
+        URL_BASE = http://kuepatest.us-east-2.elasticbeanstalk.com/
+        URL_API = http://kuepatest.us-east-2.elasticbeanstalk.com/api
+
+    Esta instancia se se conecta con Mongo Atlas, por este motivo el proyecto funciona de igual forma que en local. 
 
 # **Documentación API:**
 
