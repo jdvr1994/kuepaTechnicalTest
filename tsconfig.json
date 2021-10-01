@@ -9,7 +9,7 @@
           "src/types/*"
         ]
     },                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
-    "types": ["node", "mocha"],                                      /* Specify type package names to be included without being referenced in a source file. */
+    "types": ["node", "jest"],                                      /* Specify type package names to be included without being referenced in a source file. */
     "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
     "outDir": "dist",                                   /* Specify an output folder for all emitted files. */
     "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
